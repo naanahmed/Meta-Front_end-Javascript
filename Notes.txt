@@ -1,0 +1,11 @@
+JQUERY became the most important Javascript library for a decade because it solved the problem interoperability on different browsers
+REACT why popular : CRUD complex websites
+Automatic Semi colon insertion
+%C
+Undefined | Null | Boolean | String | Number | ES6  (BigInt | Symbol)
+**
+Strings cant break on to the next line
+Delimiters
+== and ===
+coercion when adding strings and numbers
+

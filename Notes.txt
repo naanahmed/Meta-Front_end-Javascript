@@ -29,3 +29,10 @@ The split method chops up the string into an array of sub-strings
 toUpperCase() toLowerCase() 
 Assigning a function as a method of an object
 using typeof()--- array,function can also be passed as a parameter
+Bugs and errors
+Main types of errors : Range, Syntax, Type, and Reference
+try and catch used to continue execution after an error
+undefined : in functions when it returns nthg (just displays), when a variable is not assigned a value, object property that doesnot exist
+Empty : " " ' '
+null : represents intentional absence of object value
+

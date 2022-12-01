@@ -35,4 +35,8 @@ try and catch used to continue execution after an error
 undefined : in functions when it returns nthg (just displays), when a variable is not assigned a value, object property that doesnot exist
 Empty : " " ' '
 null : represents intentional absence of object value
-
+We can use return values from one function inside another function.
+JavaScript functions are truly first-class citizens, which can be assigned to variable names and passed around just like I would pass around a string, a number, an object, etc.
+A higher-order function is a function that accepts other functions as arguments or returns functions when invoked (or both)
+A pure function returns the exact same result as long as it's given the same values. 
+For a function to be considered pure is that it should not have side-effects. A side-effect is any instance where a function makes a change outside of itself.

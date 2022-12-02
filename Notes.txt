@@ -40,3 +40,5 @@ JavaScript functions are truly first-class citizens, which can be assigned to va
 A higher-order function is a function that accepts other functions as arguments or returns functions when invoked (or both)
 A pure function returns the exact same result as long as it's given the same values. 
 For a function to be considered pure is that it should not have side-effects. A side-effect is any instance where a function makes a change outside of itself.
+Declared with var : 1. can be used before declaration, 2. can be redeclared 3. can be scoped to a function or globally
+Declared with let and const : 1. cant be used before delaration 2. cant be redeclared (in let can be reassigned) 3. scoped to block 4. const must be initialized (no access before initialization), cant be reassigned

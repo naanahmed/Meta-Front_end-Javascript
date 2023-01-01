@@ -2,7 +2,7 @@ var purchase1 ={
     price : 100,
     tax : 1.35,
     total_price : function(){
-        var price_inc_tax = this.price * this.        
+        var price_inc_tax = this.price * this.tax        
         return price_inc_tax
     }
 }

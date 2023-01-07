@@ -84,29 +84,35 @@ class Parrot extends Bird {
     }
 }
 
-var polly = new Parrot(true); 
-var fiji = new Parrot(false); 
+var fiji = new Parrot(false);
+var polly = new Parrot(true);
+
+fiji.makeSound(); 
+fiji.makeSound(true); 
 
 polly.makeSound(); 
-fiji.makeSound(); 
-/*
-polly.color; 
-polly.energy;
+polly.makeSound(true);
+
+console.log(polly.color);
+console.log(polly.energy);
 
 polly.isActive();
 
 var penguin = new Bird("shriek", false, "black and white", 200); 
-penguin; 
+console.log(penguin);
 
-penguin.sound;
-penguin.canFly;
-penguin.color; 
-penguin.energy;
+console.log(penguin.sound); 
+console.log(penguin.canFly);
+console.log(penguin.color); 
+console.log(penguin.energy);
 penguin.isActive();
 
-*/
+var leo = new HouseCat();
 
+leo.makeSound(false);
 
+leo.makeSound(true); 
 
-
-
+var cuddles = new Tiger();
+cuddles.makeSound(false); 
+cuddles.makeSound(true); 

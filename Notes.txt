@@ -48,3 +48,12 @@ Primitive variables will always be more performant than Objects
 Each object in JavaScript is unique, you can't compare a String object with another String object, even when their values are identical. When comparing objects because it is not the values that you pass to the constructor that are being compared, but rather the memory location where objects are saved.
 When the class syntax is used in JavaScript, this results in only shared methods being stored on the prototype, while the constructor() function sets up the mechanism for saving instance-specific values ("data") at the time of object instantiation.
 In addition to the inherited properties, you also automatically inherit all the methods that exist on a prototype
+Destructuring Objects
+A For Of loop cannot work on an object directly, since an object is not iterable.
+Contrary to objects, arrays are iterable.
+A for of loop can be run on arrays to loop over objects
+Template literals are an alternative way of working with strings, which was introduced in the ES6
+Differences between a template and regular string
+    - it allows for variable interpolation
+    - can span multiple lines.
+    - expression evaluation : possible to perform arithmetic operation inside a template literal expression

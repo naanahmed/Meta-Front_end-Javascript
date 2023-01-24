@@ -5,4 +5,3 @@ bestBoxers.set(3, "The third place");
 
 console.log(bestBoxers);
 console.log(bestBoxers.get(1));
-

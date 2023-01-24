@@ -57,3 +57,9 @@ Differences between a template and regular string
     - it allows for variable interpolation
     - can span multiple lines.
     - expression evaluation : possible to perform arithmetic operation inside a template literal expression
+Most common examples of data structures : Object, Array, Map and Set data structures.
+Map data structure : key-value pair, unlike an object(only strings or symbols) any value can be used as a key, and are iterable 
+Set data structure : all values unique
+A map can feel very similar to an object in JS. However, it doesn't have inheritance. No prototypes! This makes it useful as a data storage.
+Spread Operator : used to unpack a box
+Rest Operator : used to build a smaller box and fill items into it
